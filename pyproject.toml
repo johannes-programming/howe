@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "howe"
-version = "0.0.0"
+version = "1.0.0"
 description = "Stricter verion of zip."
 readme = "README.rst"
 authors = [
@@ -23,3 +23,7 @@ requires-python = ">=3.11"
 
 [project.license]
 file = "LICENSE.txt"
+
+[project.urls]
+Download = "https://pypi.org/project/howe/#files"
+Source = "https://github.com/johannes-programming/howe"
