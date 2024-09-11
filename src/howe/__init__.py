@@ -1,8 +1,10 @@
 class Howe:
     def __init__(self, *args):
         self._args = [iter(x) for x in args]
+
     def __iter__(self):
         return self
+
     def __next__(self):
         elements = list()
         errors = list()
